@@ -1,0 +1,8 @@
+nav:
+    - index.md
+    - syllabus
+    - modules
+    - lectures
+    - assessments
+    - ...
+    - Print site: print_page
