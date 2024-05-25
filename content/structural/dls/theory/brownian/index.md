@@ -13,7 +13,8 @@ The motion is erratic and unpredictable because it results from countless collis
 This randomness is a fundamental characteristic of thermal motion at the molecular level.
 On a microscopic scale, the constant, thermal-driven impacts of fluid molecules on suspended particles cause the particles to exhibit Brownian motion.
 
-![](./brownian_motion_tracking.gif)
+<div id="container-brownian"></div>
+<script src="./brownian.js"></script>
 
 ## Zero net movement
 
