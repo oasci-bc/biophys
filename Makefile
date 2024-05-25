@@ -75,15 +75,13 @@ locks: conda-create conda-setup conda-dependencies conda-lock pre-commit-install
 
 .PHONY: validate
 validate:
-	$(CONDA) markdownlint-cli2-fix content/*
-	$(CONDA) pre-commit run --all-files
+	- $(CONDA) markdownlint-cli2 "**.md" --config ./.markdownlint.yaml --fix
+	- $(CONDA) pre-commit run --all-files
 
 .PHONY: formatting
 formatting:
 	- $(CONDA) isort --settings-path pyproject.toml ./
 	- $(CONDA) black --config pyproject.toml ./
-
-
 
 
 ###   LINTING   ###
