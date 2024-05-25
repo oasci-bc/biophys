@@ -1,4 +1,5 @@
 nav:
     - index.md
+    - structural
     - ...
     - Print site: print_page

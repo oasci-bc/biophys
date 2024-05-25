@@ -1,3 +1,6 @@
 nav:
     - index.md
+    - xrd
+    - cryo-em
+    - Structural prediction: pred
     - ...

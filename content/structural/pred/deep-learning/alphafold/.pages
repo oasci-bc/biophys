@@ -1,0 +1,5 @@
+nav:
+    - index.md
+    - "AlphaFold3": "3"
+    - "AlphaFold2": "2"
+    - "AlphaFold": "1"
