@@ -1,3 +1,9 @@
 nav:
     - index.md
+    - Theoretical background: theory
+    - Instrumentation: instrumentation
+    - Procedures: procedure
+    - Data: data
+    - Case studies: case
+    - Advanced topics: advanced
     - ...

@@ -3,4 +3,5 @@ nav:
     - xrd
     - cryo-em
     - Structural prediction: pred
+    - Dynamic light scattering: dls
     - ...
