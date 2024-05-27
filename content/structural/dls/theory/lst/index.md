@@ -9,6 +9,10 @@ where:
 - \( n \) is the refractive index of the medium,
 - \( \theta \) is the scattering angle.
 
+
+<div id="light-scatter-container"></div>
+<script src="./light-scatter.js"></script>
+
 ## Autocorrelation Function
 
 The autocorrelation function describes the correlation between the intensity of scattered light at different times. It decays as the time difference increases, with the rate of decay providing information about the particle's diffusion coefficient.

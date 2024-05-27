@@ -21,7 +21,6 @@ function moveInterface() {
     viscositySlider.position(canvas.position().x, canvas.position().y);
     temperatureSlider.position(canvas.position().x, canvas.position().y + 30);
     restartButton.position(canvas.position().x + 2, canvas.position().y + 30 * 2);
-
 }
 
 function windowResized(){
