@@ -32,7 +32,6 @@ Smaller particles, with their higher diffusion coefficients, move more rapidly a
 Larger particles, with their lower diffusion coefficients, move more slowly and produce slower intensity fluctuations.
 By analyzing the rate of these intensity fluctuations using an autocorrelation function, DLS can determine the diffusion coefficients and, consequently, the particle sizes.
 
-
 The intensity and angle of the scattered light depend on the particle size and shape. In DLS, the intensity fluctuations of the scattered light are measured over time, providing information about the diffusion coefficient and hence the size of the particles.
 
 The wave vector $q$ in light scattering is given by:
@@ -62,12 +61,17 @@ g_2(\tau) = 1 + \beta e^{-2\Gamma\tau}
 $$
 
 where:
-- $\tau$ is the delay time,
-- $\beta$ is an instrument-dependent coherence factor,
-- $\Gamma$ is the decay constant related to the diffusion coefficient $D$ by $\Gamma = D q^2$.
+
+-   $\tau$ is the delay time,
+-   $\beta$ is an instrument-dependent coherence factor,
+-   $\Gamma$ is the decay constant related to the diffusion coefficient $D$ by $\Gamma = D q^2$.
 
 For polydisperse particles, the autocorrelation function is a weighted sum of exponential decays:
-\[ g_2(\tau) = 1 + \beta \int_0^\infty G(\Gamma) e^{-2\Gamma\tau} d\Gamma \]
+
+$$
+g_2(\tau) = 1 + \beta \int_0^\infty G(\Gamma) e^{-2\Gamma\tau} d\Gamma
+$$
+
 where $G(\Gamma)$ is the distribution of decay rates.
 
 ## Stokes-Einstein Equation
