@@ -1,7 +1,6 @@
 nav:
     - index.md
-    - xrd
-    - cryo-em
-    - Structural prediction: pred
-    - Dynamic light scattering: dls
+    - Principles: principles
+    - Determination: determination
+    - Prediction: prediction
     - ...
